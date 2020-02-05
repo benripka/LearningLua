@@ -1,5 +1,5 @@
-
 -- Recursive function definition
+-- Best practice is to name Global variables with a capital letter to start
 
 function Factorial(n)
     if(n ==0) then 
@@ -10,6 +10,5 @@ function Factorial(n)
 end
 
 print("Enter a number: ")
-a = io.read("*number");     -- Read in a number
-print(Factorial(a))
-
+A = io.read("*number");     -- Read in a number
+print(Factorial(A))
